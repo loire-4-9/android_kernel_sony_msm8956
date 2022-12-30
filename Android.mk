@@ -15,7 +15,6 @@
 
 # Android makefile to build kernel as a part of Android Build
 
-ifeq ($(BUILD_KERNEL),true)
 ifeq ($(PRODUCT_PLATFORM_SOD),true)
 ifeq ($(SOMC_KERNEL_VERSION),4.9)
 
@@ -274,4 +273,3 @@ endif # TARGET_NEEDS_DTBOIMAGE
 
 endif # Sony Kernel version
 endif # Sony AOSP devices
-endif # BUILD_KERNEL
